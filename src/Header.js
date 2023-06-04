@@ -37,7 +37,7 @@ function Header() {
 			</div>
 
 			<div className="header__center">
-				<div className="header__option header__option--active">
+				<div className="header__option header__option--active" onClick={()=>{window.location.reload()}}>
 					<HomeIcon fontSize="large" />
 				</div>
 
@@ -50,7 +50,9 @@ function Header() {
 				</div>
 
 				<div className="header__option">
+				<a href='https://www.facebook.com/marketplace'>
 					<StorefrontIcon fontSize="large" />
+					</a>
 				</div>
 
 				<div className="header__option">

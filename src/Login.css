@@ -1,43 +1,28 @@
 .login {
 	display: grid;
-	place-items: center;
+	/* place-items: center; */
 	height: 100vh;
 	background-color: rgb(255, 255, 255);
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('https://img.freepik.com/free-vector/social-media-icons_53876-89763.jpg?w=996&t=st=1685873983~exp=1685874583~hmac=cbf221d65ccc7cba8de1df5996de2fd9bed5b00c414f20039a79a9a3f993fac7');
 }
-
-.logo1 {
-	height: 370px;
-	/*👉margin-top: 1rem;👈*/
-	margin-right: 40px;
-}
-
-.logo2 {
-	height: 300px;
-	margin-left: 1rem;
-}
-
-.login > button {
-	width: 300px;
+.login>button {
 	background-color: #5f25aa;
 	color: #eff2f5;
 	font-weight: 800;
-	margin-bottom: 7rem;
+	/* width: 300px; */
+
 }
 
-.login > button:hover {
+.login>button:hover {
 	background-color: white;
 	color: #5f25aa;
 }
-.login > div > img {
-	object-fit: contain;
-	/*👉	height: 260px;👈*/
-	/*👉margin-right: 50px;👈*/
-}
 
-.login > div {
-	display: flex;
-	flex-direction: column;
-}
+
 
 * {
 	font-family: 'Roboto', sans-serif;
