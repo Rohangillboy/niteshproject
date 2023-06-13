@@ -29,7 +29,7 @@ function Login() {
 		<div className="login">
 				<img
 					className="logo1"
-					src="https://o.remove.bg/downloads/8ca75a55-edef-4946-b530-74087824a62c/Social-Buzz-logo-removebg-preview.png"
+					src="https://www.linkpicture.com/q/Social-Buzz-logo.png"
 					alt=""
 				/>
 				{/* https://www.linkpicture.com/q/Social-Buzz-logo.png */}
